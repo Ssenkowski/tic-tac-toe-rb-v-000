@@ -1,5 +1,3 @@
-
-
 # Helper Methods
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -17,7 +15,7 @@ def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
-def valid_move?(board, index)
+def valid_move?(board, index, token)
   index.between?(0,8) && !position_taken?(board, index)
 end
 
@@ -51,9 +49,6 @@ def turn_count(board)
   end
   counter
 end
-
-
-
 
 def current_player(board)
   if turn_count(board) % 2 == 0
