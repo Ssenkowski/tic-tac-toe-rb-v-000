@@ -106,6 +106,7 @@ end
 
 #Play Method
 def play_(board)
+  input = gets
   until over?(board)
     turn(board)
   end
