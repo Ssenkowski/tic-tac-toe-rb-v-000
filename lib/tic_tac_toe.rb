@@ -108,4 +108,3 @@ end
 def play_(board)
   input = gets
 end
-
