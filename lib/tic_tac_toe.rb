@@ -36,7 +36,6 @@ def play(board)
   until over?(board)
     turn(board)
     counter += 1
-    won?
   end
 end
 
