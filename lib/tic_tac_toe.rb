@@ -107,6 +107,6 @@ end
 #Play Method
 def play_(board)
   turn(board)
-  turn_count
-  over?
+  turn_count(board)
+  over?(board)
 end
