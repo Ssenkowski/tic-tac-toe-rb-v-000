@@ -109,7 +109,4 @@ def play_(board)
   turn(board)
   turn_count
   over?
-  if over?
-
-
 end
