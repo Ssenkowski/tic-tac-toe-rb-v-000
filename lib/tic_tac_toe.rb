@@ -106,5 +106,10 @@ end
 
 #Play Method
 def play_(board)
-  input = gets
+  turn(board)
+  turn_count
+  over?
+  if over?
+    
+    
 end
