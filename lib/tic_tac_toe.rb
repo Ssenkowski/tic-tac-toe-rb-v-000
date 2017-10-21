@@ -59,7 +59,7 @@ def current_player(board)
 end
 
 def position_taken?(board, location)
-  board[location] != " " 
+  board[location] != " "
 end
 
 # Define your WIN_COMBINATIONS constant
